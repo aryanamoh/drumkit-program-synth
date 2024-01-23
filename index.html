@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drumkit Cellular Automata</title>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/img/drumIcon.png">
+
+</head>
+<body>
+    
+    <h1>Drumkit Cellular Automata</h1>
+
+
+    
+    <div class="center">
+
+        <button id="startStopButton">Start</button>
+        <br>
+        <br>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <br>
+        <br>
+
+        <input type="range" min="1000" max="10000" value="5000" class="slider" id="updateSpeed">
+        <p>Automaton Speed: <span id="showFPS"></span>, Live Cells: <span id="showLiveCells"></span>%</p>
+
+        <br>
+        <br>
+        
+        <a href="blog.html">Click here for blog</a> 
+
+        <br>
+        <br>
+        <br>
+    </div>
+    
+</body>
+
+<script src="/js/main.js"></script>
+</html>
